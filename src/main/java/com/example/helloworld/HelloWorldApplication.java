@@ -23,6 +23,7 @@ public class HelloWorldApplication {
     @PostMapping("/hello")
     public String hello() {
         return "hello,this is a hello world application.";
+
     }
 
 
